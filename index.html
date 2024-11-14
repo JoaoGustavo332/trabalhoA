@@ -1,0 +1,91 @@
+<!DOCTYPE html> 
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bon Appétit</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quentine&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'Hastagirl';
+            src: url('Hastagirl.ttf') format('truetype');
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #1AB3FF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        header {
+            background-color: #2f2f2f;
+            color: #1AB3FF;
+            padding: 5px 20px;
+            width: 100%;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        header h1 {
+            font-family: 'Quentine', cursive;
+            font-size: 36px;
+            color: #1AB3FF;
+            margin-left: 170px;
+        }
+        nav {
+            margin-right: 20px;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            padding: 20px;
+            margin-top: 60px;
+            font-size: 1.5em;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .content img {
+            width: 600px;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bon Appétit</h1>
+        <nav>
+            <a href="#restaurantes">Restaurantes na sua região</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2>Conheça os restaurantes mais<br>bem avaliados da sua região</h2>
+        <img src="resta.png" alt="Restaurante">
+    </div>
+
+</body>
+</html>
